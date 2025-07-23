@@ -1,0 +1,40 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+
+/* header */
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlink{
+    display: flex;
+    gap: 20px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #252432;
+}
+
+nav .navlink-menu{
+    color: #8987A1;
+}
+
