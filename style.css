@@ -137,7 +137,7 @@ nav .navlink-menu{
 /* cards */
 
 .our-plants{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .card{
@@ -228,6 +228,42 @@ nav .navlink-menu{
  .banner-description{
     font-size: 16px;
      width: 78%;
+}
+
+/* our plants */
+
+
+.plant-title{
+    font-size: 28px;
+    margin-bottom: 20px;
+    
+}
+
+.plant-description{
+    width: 67%;
+    font-size: 16px; 
+    /* margin-bottom: ;  */
+}
+
+.our-plants-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0px 15px;
+}
+
+.card-title{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.card-description{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.card-button{
+    padding: 20px 0px;
 }
 
 
