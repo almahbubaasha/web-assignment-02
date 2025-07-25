@@ -219,8 +219,7 @@ nav .navlink-menu {
     color: rgba(0, 0, 0, 0.5);
     list-style-position: outside;
     margin-left: 60px;
-    width: 83%;
-    
+    width: 83%;   
 }
 
 .flower-plants-description-1{
@@ -235,6 +234,7 @@ nav .navlink-menu {
     background-color: transparent;
     position: absolute;
 }
+
 
 /* latest deal */
 
@@ -274,7 +274,6 @@ nav .navlink-menu {
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
-    /* background-position: left top, left bottom; */
 }
 
 
@@ -290,7 +289,7 @@ nav .navlink-menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 .big-img-text{
@@ -332,9 +331,66 @@ nav .navlink-menu {
 }
 
 
+
 /* footer part */
 
+.footer-all{
+  display: flex;
+  width: 100%;
+  max-width: 1240px;
+  height: auto;
+  gap: 130px;
+  /* background-color: palevioletred; */
+  margin: 0 auto;
+}
 
+.foot-logo{
+  margin-bottom: 15px;
+}
+
+.foot-description{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 95%;
+  max-width: 360px;
+  height: 180px;
+}
+
+.foot-nav-links{
+  display: grid;
+  grid-template-rows: repeat(5,1fr);
+  grid-template-columns: 85px  130px;
+  height: 250px;
+  grid-auto-flow: column;
+  gap: 30px;
+  column-gap: 110px;
+}
+
+.foot-nav-links li{
+  list-style: none;
+}
+
+.foot-nav-links li a{
+  text-decoration: none;
+  color: #6B7280;
+}
+
+.foot-icon{
+  width: 230px;
+  height: 36px;
+  margin-left: 65px;
+}
+
+.icons{
+  display: flex;
+  width: 36px;
+  height: 36px;
+  gap: 25px; 
+}
+
+.icons-twi{
+  padding: 8px;
+}
 
 
 
@@ -351,6 +407,7 @@ nav .navlink-menu {
   .navbar {
     padding: 15px;
   }
+
 
   /* banner */
 
@@ -375,6 +432,7 @@ nav .navlink-menu {
     width: 78%;
   }
 
+
   /* our plants */
 
 .our-plants {
@@ -389,7 +447,6 @@ nav .navlink-menu {
   .plant-description {
     width: 67%;
     font-size: 16px;
-    /* margin-bottom: ;  */
   }
 
   .our-plants-card {
@@ -415,6 +472,7 @@ nav .navlink-menu {
 
 
   /* flower-plants */
+
 
   .flower-plants{
     flex-direction: column;
@@ -464,7 +522,6 @@ nav .navlink-menu {
   background-size: contain;
 }
 
-
 .big-img-text h2{
   font-size: 22px;
   padding: 10px;
@@ -474,7 +531,6 @@ nav .navlink-menu {
 .big-img-text input{
   width: 100%;
   height: 40px;
-  /* padding-top: 15px; */
   font-size: 14px;
 }
 
@@ -484,6 +540,39 @@ nav .navlink-menu {
   font-size: 15px;
   font-weight: 500;  
 }
+
+
+
+
+/* footer */
+
+.footer-all{
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.foot-nav-links{
+  grid-template-rows: repeat(10,1fr);
+  grid-template-columns: 100%;
+  height: auto;
+  grid-auto-flow: column;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.foot-description{
+  width: 100%;
+  max-width: 85%;
+  height: auto;
+  margin-bottom: 20px; 
+}
+
+.foot-icon{
+  margin-left: 0px;
+}
+
 
 
 
