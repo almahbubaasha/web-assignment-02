@@ -197,7 +197,7 @@ nav .navlink-menu {
   gap: 20px;
   /* background-color: cadetblue; */
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .flower-plants-text {
@@ -227,7 +227,6 @@ nav .navlink-menu {
     margin-bottom: 25px;
 }
 
-
 .badge{
     height: 300px;
     width: 300px;
@@ -236,6 +235,106 @@ nav .navlink-menu {
     background-color: transparent;
     position: absolute;
 }
+
+/* latest deal */
+
+.latest-deal{
+    
+    margin-bottom: 30px;
+}
+
+.deal-text{
+  text-align: center;
+}
+
+.deal-title{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.deal-description{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 67%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.deal-img-1{
+    background-image: url(assets/deal-zabo.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    /* background-position: left top, left bottom; */
+}
+
+.deal-img-2{
+    background-image: url(assets/deal-ana.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    /* background-position: left top, left bottom; */
+}
+
+
+/* big image */
+
+.big-img{
+    background-image: url(assets/news-letter-bg.png);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.big-img-text{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.big-img-text h2{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  padding: 30px;
+}
+
+.big-img-text input{
+  width: 800px;
+  height: 55px;
+  border: none;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.big-img-btn{
+  background-color: #E95A08;
+  color: white;
+  height: 55px;
+  width: 185px;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;  
+}
+
+.input-btn{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* footer part */
+
+
 
 
 
@@ -346,6 +445,47 @@ nav .navlink-menu {
 .badge{
     display: none;
 }
+
+
+/* latest deal */
+
+.deal-description{
+  width: 88%;
+}
+
+
+
+/* big-img */
+
+.big-img{
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: contain;
+}
+
+
+.big-img-text h2{
+  font-size: 22px;
+  padding: 10px;
+  text-align: center;
+}
+
+.big-img-text input{
+  width: 100%;
+  height: 40px;
+  /* padding-top: 15px; */
+  font-size: 14px;
+}
+
+.big-img-btn{
+  height: 40px;
+  width: 60%;
+  font-size: 15px;
+  font-weight: 500;  
+}
+
+
 
 
 }
